@@ -17,6 +17,34 @@
 
 }
 
+button{
+    margin-bottom: .7rem;
+}
+
 .table{
     width: 100%;
+   
 }
+
+.livros{
+    color: rgb(46, 86, 197);
+    margin-left: .4rem;
+}
+
+.edit{
+    color: rgb(182, 182, 27);
+}
+
+.delete{
+    color: rgb(219, 59, 59);
+    margin-left: .5rem;
+}
+
+.mat-header{
+    width: 5rem;
+}
+
+.table{
+    background-color: rgb(184, 177, 177);
+}
+
