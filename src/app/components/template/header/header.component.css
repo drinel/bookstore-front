@@ -5,7 +5,7 @@ img{
 .header{
     justify-content: center;
     height: 10%;
-    background-color: rgb(46, 78, 255);
+    background-color: rgb(30, 30, 32);
   
 }
 
@@ -19,4 +19,5 @@ h1{
     padding-left: 0.4rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1.3rem;
+    color: silver;
 }
