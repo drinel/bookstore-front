@@ -3,13 +3,13 @@
 <h1>Categoria</h1>
 
 </div>
-<button class="mat-elevation-z8" mat-stroked-button color="primary">NOVA CATEGORIA</button>
+<button class="mat-elevation-z8" (click)="navegarParaCategoria()" mat-stroked-button color="primary">NOVA CATEGORIA</button>
 
 <div class="mat-elevation-z8 content-table">
 
-<table class="table" mat-table [dataSource] ="categorias">
+<table class="table" mat-table [dataSource] = "categorias">
 
- 
+
     <!-- Position Column -->
     <ng-container matColumnDef="id">
       <th mat-header-cell *matHeaderCellDef> ID </th>
@@ -36,7 +36,7 @@
        </a>
       </td>
     </ng-container>
-
+    
     <!-- Symbol Column -->
     <ng-container matColumnDef="acoes">
       <th class="mat-header" mat-header-cell *matHeaderCellDef> AÇÕES </th>
@@ -55,6 +55,6 @@
     <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
   </table>
 
-
+      
 </div>
 </div>
