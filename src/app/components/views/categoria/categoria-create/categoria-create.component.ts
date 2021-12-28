@@ -22,7 +22,7 @@ categoria: Categoria = {
 
   create(): void{
     this.service.create(this.categoria).subscribe((resposta) =>{
-      this.router.navigate(['categorias'])
+      this.router.navigate(['categorias']);
       this.service.message('Categoria criada com sucesso!');
    
     }, err =>{
@@ -30,5 +30,9 @@ categoria: Categoria = {
         this.service.message(err.error.errors[i].message)
       }
     })
+  }
+
+  cancel():void{
+    this.router.navigate(['categorias']);
   }
 }
